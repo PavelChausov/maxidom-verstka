@@ -26,6 +26,9 @@ a:visited {
     color: #FFFFFF;
     text-decoration: none;
 }
+.header__link_inactive {
+    color: rgba(255, 255, 255, 0.54);
+}
 .header__city-select-lnk:hover,
 .header__city-select-lnk:focus,
 .header__city-select-lnk:active {
@@ -51,8 +54,6 @@ a:visited {
 
 .header {
     color: #FFFFFF;
-}
-.header__container {
 }
 
 .header__top-row {
@@ -125,6 +126,27 @@ a:visited {
 .header__search-input {
     height: 48px;
     width: 324px !important;
+    -webkit-border-top-left-radius: 4px !important;
+    -webkit-border-bottom-left-radius: 4px !important;
+    -moz-border-radius-topleft: 4px !important;
+    -moz-border-radius-bottomleft: 4px !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    background-color: #ffffff;
+    padding-left: 36px;
+}
+.header__search-zoom {
+    width: 16px;
+    height: 15px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: -16px;
+    top: 15px;
+    left: 13px;
+    position: relative;
+    float: left;
+    z-index: 10;
+    background: url('../img/zoom.png') no-repeat center;
 }
 
 .account-icon {

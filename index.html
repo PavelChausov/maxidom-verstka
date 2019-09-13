@@ -13,7 +13,7 @@
   </head>
   <body class="page">
     <header class="header container-fluid">
-      <div class="page__container header__container container">
+      <div class="page__container container">
         <div class="header__top-row">
           <div class="dropdown header__first-row-elem header__first-row-elem_first">
             <a data-target="#" href="#" data-toggle="dropdown" class="dropdown-toggle header__link">
@@ -48,7 +48,7 @@
           </div>
           <div class="header__first-row-elem header__first-row-elem_last">
             <a class="header__link" href="#">Рус</a>
-            <a class="header__link" href="#">Eng</a>
+            <a class="header__link header__link_inactive" href="#">Eng</a>
           </div>
         </div>
         <div class="header__second-row">
@@ -65,6 +65,7 @@
               </ul>
           </div>
           <div class="input-group header__second-row-elem">
+            <i class="header__search-zoom"></i>
             <input type="search" class="form-control header__search-input" placeholder="Введите ваш поисковый запрос">
             <span class="input-group-btn">
               <button class="btn btn-primary header__button" type="button">
