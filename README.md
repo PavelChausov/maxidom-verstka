@@ -3,3 +3,5 @@
 
 # Ссылка на макет
 https://www.figma.com/file/R5nOgqrm9MINUaQk5t4P80/Untitled?node-id=1%3A4
+# Посмотреть результат
+https://pavelchausov.github.io/maxidom-verstka/index.html
